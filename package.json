@@ -1,0 +1,35 @@
+{
+  "name": "satan-bot",
+  "version": "0.0.1",
+  "description": "Satan Bot, A multi purpose single server discord bot with control panel",
+  "main": "dist",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Satan0x/satan-bot.git"
+  },
+  "author": "Satan0x",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Satan0x/satan-bot/issues"
+  },
+  "homepage": "https://github.com/Satan0x/satan-bot#readme",
+  "dependencies": {
+    "bufferutil": "^4.0.3",
+    "discord.js": "^12.5.3",
+    "ioredis": "^4.27.6",
+    "mongoose": "^5.13.2",
+    "utf-8-validate": "^5.0.5",
+    "zlib-sync": "^0.1.7"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
+    "eslint": "^7.30.0",
+    "typescript": "^4.3.5"
+  }
+}
